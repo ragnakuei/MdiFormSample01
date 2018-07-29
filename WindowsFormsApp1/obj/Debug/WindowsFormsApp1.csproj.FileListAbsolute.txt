@@ -1,0 +1,13 @@
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Main.resources
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form01.resources
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form02.resources
+D:\Kuei\Projects\Test\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form03.resources

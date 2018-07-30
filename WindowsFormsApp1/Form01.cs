@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
 
         private void btnOpenForm3_Click(object sender, EventArgs e)
         {
-            _mdiParentForm.OpenForm3();
+            _mdiParentForm.OpenForm3(true);
         }
     }
 }

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -13,8 +6,8 @@ namespace WindowsFormsApp1
     public partial class Main : Form
     {
         private Form01 _form01;
-        public Form02 Form02;
-        public Form03 Form03;
+        private Form02 _form02;
+        private Form03 _form03;
 
         public Main()
         {
@@ -45,27 +38,29 @@ namespace WindowsFormsApp1
 
         public void OpenForm2()
         {
-            if (Form02 == null)
+            if (_form02 == null)
             {
-                Form02            =  new Form02();
-                Form02.MdiParent  =  this;
-                Form02.FormClosed += new FormClosedEventHandler(form02_FormClosed);
-                Form02.Show();
+                _form02 =  new Form02();
+                _form02.MdiParent  =  this;
+                _form02.FormClosed += new FormClosedEventHandler(form02_FormClosed);
+                _form02.Show();
             }
-            else Form02.Activate();
+            else _form02.Activate();
         }
 
-        public void OpenForm3()
+        public void OpenForm3(bool isFromForm1 = false)
         {
-            if (Form03 == null)
+            if (_form03 == null)
             {
-                Form03            =  new Form03();
-                Form03.MdiParent  =  this;
-                Form03.FormClosed += new FormClosedEventHandler(form03_FormClosed);
-                Form03.Show();
-                Form02.Form03 = Form03;
+                _form03 =  new Form03();
+                _form03.MdiParent  =  this;
+                _form03.FormClosed += new FormClosedEventHandler(form03_FormClosed);
+                _form03.Show();
+
+                if(isFromForm1)
+                    _form02.Form03 = _form03;
             }
-            else Form03.Activate();
+            else _form03.Activate();
         }
 
         void form01_FormClosed(object sender, FormClosedEventArgs e)
@@ -75,12 +70,12 @@ namespace WindowsFormsApp1
 
         void form02_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form02 = null;
+            _form02 = null;
         }
 
         void form03_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form03 = null;
+            _form03 = null;
         }
     }
 }
